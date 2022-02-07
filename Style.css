@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9f3131 !important;
+    border-color: #9f3131 !important;
+}
+
+
+body{
+background-image: url(https://art.pixilart.com/e842fc561286f20.gif);
+height: 100vh;
+width: auto;
+background-size:cover ;
+background-repeat: no-repeat ;
+
+}
+h1 {
+    color: green;
+    font-size: 10px;
+    font-weight: bold !important;
+}
+h2{
+    font-size: 69px !important;
+    font-weight: bold !;
+    padding: 1rem;
+}
+    
+
+.boxcount{
+    position: absolute;
+    background-color: rgb(255, 255, 255, .6);
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50% , -50%);
+    box-shadow: 15px 15px 10px rgb(21, 21, 21);
+    border-radius: 25px;
+}
+.count{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+.count .btn {
+align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    .boxcount{
+        position: absolute;
+        background-color: rgb(255, 255, 255, .6);
+        height: 450px;
+        width: 450px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50% , -50%);
+        box-shadow: 15px 15px 10px rgb(0, 0, 0);
+        border-radius: 25px;
+    }
+    .count .btn{
+        margin: 0px;
+        padding: 5px;
+    }
+
+    h1 {
+        color: green;
+        font-size: 40px !important;
+        font-weight: bold !important;
+    }
+    h2{
+        font-size: 60px !important;
+        font-weight: bold !important;
+        padding: 1rem;
+    }
+
+}
+@media only screen and (max-width:900px) {
+    .boxcount{
+        position: absolute;
+        background-color: rgb(255, 255, 255, .6);
+        height: 300px;
+        width: 300px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50% , -50%);
+        box-shadow: 15px 15px 10px rgb(0, 0, 0);
+        border-radius: 25px;
+    }
+    .count .btn{
+        margin: 0px;
+        padding: 5px;
+        margin-top: 6px ;
+    }
+
+    h1 {
+        color: green;
+        font-size: 40px !important;
+        font-weight: bold !important;
+    }
+    h2{
+        font-size: 60px !important;
+        font-weight: bold !important;
+        padding: 1rem;
+    }
+    .boxcount{
+        position: absolute;
+        background-color: rgb(255, 255, 255, .6);
+        height: 300px;
+        width: 350px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50% , -50%);
+        box-shadow: 15px 15px 10px rgb(21, 21, 21);
+        border-radius: 25px;
+    }
+
+}
