@@ -18,5 +18,6 @@ function asserm(){
 
 
 function refreshPage(){
-    window.location.reload();
+    x = 0
+    countNo.innerText = x ;
 } 
