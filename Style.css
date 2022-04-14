@@ -2,6 +2,10 @@
     margin: 0%;
     padding: 0%;
 }
+
+
+
+
 .btn-primary {
     color: #fff;
     background-color: #9f3131 !important;
@@ -19,7 +23,7 @@ background-repeat: no-repeat ;
 }
 h1 {
     color: green;
-    font-size: 10px;
+    font-size: 0px;
     font-weight: bold !important;
 }
 h2{
@@ -39,6 +43,7 @@ h2{
     transform: translate(-50% , -50%);
     box-shadow: 15px 15px 10px rgb(21, 21, 21);
     border-radius: 25px;
+    animation: transitionIn 2s   ;
 }
 .count{
     position: relative;
@@ -129,4 +134,19 @@ align-items: center;
         border-radius: 25px;
     }
 
+}
+
+
+
+
+@keyframes transitionIn{
+    from    {
+        opacity: 0;
+     
+    }
+
+    to{
+        opacity: 1;
+
+    }
 }
